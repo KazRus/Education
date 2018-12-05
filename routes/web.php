@@ -59,19 +59,12 @@ Route::group([
     'namespace' => 'Index',
 ], function() {
 
-
-
     Route::get('/', 'IndexController@index');
-    Route::get('gallery', 'IndexController@showGallery');
     Route::get('contact', 'IndexController@showContact');
     Route::get('news', 'IndexController@showNews');
     Route::get('news-detail', 'IndexController@showNewsDetail');
-    Route::get('faq', 'IndexController@showFaq');
+    Route::get('gallery', 'IndexController@showGallery');
+    Route::get('services', 'IndexController@showServices');
     Route::get('about', 'IndexController@showAbout');
-    Route::get('course1', 'IndexController@showCourse1');
-    Route::get('course2', 'IndexController@showCourse2');
 
-
-
-    
 });

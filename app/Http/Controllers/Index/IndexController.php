@@ -39,32 +39,31 @@ class IndexController extends Controller
 
     public function index(Request $request)
     {
-        return view('index.index');
+        return view('index.index.index');
     }
-
-    public function showGallery(Request $request)
+    public function showContact (Request $request)
     {
-        return view('index.gallery');
+        return view('index.contact.contact');
     }
 
-    public function showContact(Request $request)
-    {
-        return view('index.contact');
-    }
+    public function showNews (Request $request)
+        {
+            return view('index.news.news');
+        }
 
-    public function showNews(Request $request)
-    {
-        return view('index.news.news');
-    }
-
-    public function showNewsDetail(Request $request)
+    public function showNewsDetail (Request $request)
     {
         return view('index.news.news-detail');
     }
 
-    public function showFaq(Request $request)
+    public function showGallery(Request $request)
     {
-        return view('index.faq.faq');
+        return view('index.gallery.gallery');
+    }
+
+    public function showServices(Request $request)
+    {
+        return view('index.services.services');
     }
 
     public function showAbout(Request $request)
@@ -72,14 +71,9 @@ class IndexController extends Controller
         return view('index.about.about');
     }
 
-    public function showcourse1(Request $request)
-    {
-        return view('index.course.course1');
-    }
-    public function showcourse2(Request $request)
-    {
-        return view('index.course.course2');
-    }
+
+
+
 
 
 }
