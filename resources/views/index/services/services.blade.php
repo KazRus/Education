@@ -6,10 +6,11 @@
     <meta name="description" content="Desc">
     <meta name="keywords" content="keywords">
 
-    @endsection
+@endsection
 
-    @section('content')
-    @include('index.layout.header')
+@section('content')
+
+@include('index.layout.header')
 
             <!--Page Title-->
     <section class="page-title"
@@ -44,8 +45,10 @@
                                                     <img src="http://wp3.commonsupport.com/newwp/hubli/wp-content/uploads/2018/04/wind-2.png"
                                                          alt="" class="icon">
                                                     <h4><a href="#">Wind Energy</a></h4>
-                                                    <p>Компания основана Ларри Пейджем и Сергеем Брином. Впервые она была
-                                                        зарегистрирована как частная компания 4 января 1996 года, а 19 августа
+                                                    <p>Компания основана Ларри Пейджем и Сергеем Брином. Впервые она
+                                                        была
+                                                        зарегистрирована как частная компания 4 января 1996 года, а 19
+                                                        августа
                                                         2004 года начала продажу своих акций на фондовом рынке.</p>
                                                     <a href="#" class="read-more">Learn More</a>
                                                 </div>
@@ -55,8 +58,10 @@
                                                     <img src="http://wp3.commonsupport.com/newwp/hubli/wp-content/uploads/2018/04/save-2.png"
                                                          alt="" class="icon">
                                                     <h4><a href="#">Save Forest</a></h4>
-                                                    <p>Компания основана Ларри Пейджем и Сергеем Брином. Впервые она была
-                                                        зарегистрирована как частная компания 4 января 1996 года, а 19 августа
+                                                    <p>Компания основана Ларри Пейджем и Сергеем Брином. Впервые она
+                                                        была
+                                                        зарегистрирована как частная компания 4 января 1996 года, а 19
+                                                        августа
                                                         2004 года начала продажу своих акций на фондовом рынке. </p>
                                                     <a href="#" class="read-more">Learn More</a>
                                                 </div>
@@ -71,8 +76,10 @@
                                                     <img src="http://wp3.commonsupport.com/newwp/hubli/wp-content/uploads/2018/04/recycle-2.png"
                                                          alt="" class="icon">
                                                     <h4><a href="#">Recyling Process</a></h4>
-                                                    <p>Компания основана Ларри Пейджем и Сергеем Брином. Впервые она была
-                                                        зарегистрирована как частная компания 4 января 1996 года, а 19 августа
+                                                    <p>Компания основана Ларри Пейджем и Сергеем Брином. Впервые она
+                                                        была
+                                                        зарегистрирована как частная компания 4 января 1996 года, а 19
+                                                        августа
                                                         2004 года начала продажу своих акций на фондовом рынке.</p>
                                                     <a href="#" class="read-more">Learn More</a>
                                                 </div>
@@ -82,8 +89,10 @@
                                                     <img src="http://wp3.commonsupport.com/newwp/hubli/wp-content/uploads/2018/04/water-2.png"
                                                          alt="" class="icon">
                                                     <h4><a href="#">Water Refine</a></h4>
-                                                    <p>Компания основана Ларри Пейджем и Сергеем Брином. Впервые она была
-                                                        зарегистрирована как частная компания 4 января 1996 года, а 19 августа
+                                                    <p>Компания основана Ларри Пейджем и Сергеем Брином. Впервые она
+                                                        была
+                                                        зарегистрирована как частная компания 4 января 1996 года, а 19
+                                                        августа
                                                         2004 года начала продажу своих акций на фондовом рынке. </p>
                                                     <a href="#" class="read-more">Learn More</a>
                                                 </div>
